@@ -1,0 +1,113 @@
+/* Typography */
+.title {
+  font-family: var(--ff-inter-tight);
+  font-size: var(--fs-xl);
+  line-height: var(--lh-xl);
+  font-weight: var(--weight-bold);
+}
+
+.paragraph-medium {
+  font-family: var(--ff-inter);
+  font-size: var(--fs-md);
+  line-height: var(--lh-lg);
+  font-weight: var(--weight-medium);
+}
+
+.paragraph-small {
+  font-family: var(--ff-inter);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-sm);
+  font-weight: var(--weight-medium);
+}
+
+.label-large {
+  font-family: var(--ff-inter);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-lg);
+  font-weight: var(--weight-bold);
+}
+
+.label-medium {
+  font-family: var(--ff-inter);
+  font-size: var(--fs-md);
+  line-height: var(--lh-lg);
+  font-weight: var(--weight-bold);
+}
+
+.label-small {
+  font-family: var(--ff-inter);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-sm);
+  font-weight: var(--weight-bold);
+}
+
+.link {
+  font-family: var(--ff-inter);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-sm);
+  font-weight: var(--weight-medium);
+}
+
+/* Gap (Spacing between children) */
+.gap-4 {
+  gap: var(--space-4);
+}
+
+.gap-8 {
+  gap: var(--space-8);
+}
+
+.gap-9 {
+  gap: var(--space-9);
+}
+
+.gap-12 {
+  gap: var(--space-12);
+}
+
+.gap-16 {
+  gap: var(--space-16);
+}
+
+.gap-28 {
+  gap: var(--space-28);
+}
+
+/* General Padding */
+.p-20 {
+  padding: var(--space-20);
+}
+
+.p-40 {
+  padding: var(--space-40);
+}
+
+/* Directional & Specific Padding */
+.py-12 {
+  padding-top: var(--space-12);
+  padding-bottom: var(--space-12);
+}
+
+.px-20 {
+  padding-left: var(--space-20);
+  padding-right: var(--space-20);
+}
+
+.px-24 {
+  padding-left: var(--space-24);
+  padding-right: var(--space-24);
+}
+
+.pb-32 {
+  padding-bottom: var(--space-32);
+}
+
+/* Margin */
+.my-16 {
+  margin-top: var(--space-16);
+  margin-bottom: var(--space-16);
+}
+
+.mb-44 {
+  margin-bottom: var(--space-44);
+}

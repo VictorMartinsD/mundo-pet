@@ -1,0 +1,66 @@
+:root {
+  /* Colors - Content */
+  --content-primary: #fff;
+  --content-secondary: #98959d;
+  --content-tertiary: #666;
+  --content-brand: #9282fa;
+
+  /* Colors - Background */
+  --background-primary: #151515;
+  --background-secondary: #1e1e1e;
+  --background-tertiary: #23242c;
+  --background-brand: #9282fa;
+  --background-highlights: #bdb4fa;
+
+  /* Colors - Border */
+  --border-primary: #3e3c41;
+  --border-secondary: #86818c;
+  --border-brand: #9282fa;
+  --border-divisor: #353339;
+
+  /* Colors - Accent */
+  --accent-blue: #027df0;
+  --accent-blue-light: #16487a;
+  --accent-yellow: #f0dc02;
+  --accent-yellow-light: #756e1b;
+  --accent-orange: #f09102;
+  --accent-orange-light: #75501b;
+
+  /* Typography - Font Size */
+  --fs-xl: 1.5rem; /* 24px */
+  --fs-lg: 1rem; /* 16px */
+  --fs-md: 0.875rem; /* 14px */
+  --fs-sm: 0.75rem; /* 12px */
+
+  /* Typography - Line Height */
+  --lh-xl: 2rem; /* 32px */
+  --lh-lg: 1.5rem; /* 24px */
+  --lh-sm: 1rem; /* 16px */
+
+  /* Typography - Font Weight */
+  --weight-bold: 700;
+  --weight-medium: 500;
+
+  /* Typography - Font Family */
+  --ff-inter: inter, ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
+  --ff-inter-tight: "Inter Tight", ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
+  --ff-familjen-grotesk:
+    "Familjen Grotesk", ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
+
+  /* Border Radius */
+  --radius-md: 0.625rem; /* 10px */
+  --radius-sm: 0.5rem; /* 8px  */
+
+  /* Spacing Scale */
+  --space-4: 0.25rem; /* 4px  */
+  --space-8: 0.5rem; /* 8px  */
+  --space-9: 0.5625rem; /* 9px  */
+  --space-12: 0.75rem; /* 12px */
+  --space-16: 1rem; /* 16px */
+  --space-20: 1.25rem; /* 20px */
+  --space-24: 1.5rem; /* 24px */
+  --space-28: 1.75rem; /* 28px */
+  --space-32: 2rem; /* 32px */
+  --space-40: 2.5rem; /* 40px */
+  --space-44: 2.75rem; /* 44px */
+}
