@@ -15,10 +15,50 @@ body {
   transition: opacity 0s ease-in;
 }
 
+.icon-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
 /* Definições globais dos SVGs */
 .icon {
   width: 20px;
   height: 20px;
   display: inline-block;
   vertical-align: middle;
+  color: var(--icon-primary, var(--content-brand));
+  fill: var(--icon-primary, var(--content-brand));
+
+  --icon-primary: var(--content-brand);
+  --icon-secondary: color-mix(in srgb, var(--content-brand) 40%, transparent);
+}
+
+.icon-sun {
+  --icon-primary: var(--accent-blue);
+  --icon-secondary: var(--accent-blue-light);
+}
+
+.icon-cloud {
+  --icon-primary: var(--accent-orange);
+  --icon-secondary: var(--accent-orange-light);
+}
+
+.icon-moon {
+  --icon-primary: var(--accent-yellow);
+  --icon-secondary: var(--accent-yellow-light);
+}
+
+.icon-chevron-down {
+  --icon-primary: var(--content-primary);
+  --icon-secondary: var(--content-primary);
+}
+
+.icon-close {
+  width: 36px;
+  height: 36px;
+
+  --icon-primary: var(--content-secondary);
+  --icon-secondary: var(--content-secondary);
 }
